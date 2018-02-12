@@ -1,0 +1,39 @@
+body {
+  background-color: #85a9b7;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+.athelete {
+  border-radius: 2px;
+  border: 1px solid #588596;
+}
+
+.athelete {
+  text-align: center;
+  background-color: #e4eef2;
+  margin: 0.5em;
+}
+
+.athelete span {
+  display: block;
+}
+
+.athelete span.name {
+  font-size: 1.5em;
+}
+
+#basketball,#baseball {
+  margin:0.5em;
+}
+#basketball ul, #baseball ul {
+  width: 20em;
+  height: 20em;
+  overflow: auto;
+}

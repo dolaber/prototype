@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <h1>Test application to show some concepts</h1>
+  <p>
+    Use the search input to search the lists. You can start typing and the list will be filtered to the search term. You can search first name, last name, and position.
+  </p>
+  <div id="basketball">
+    <input type="text" placeholder="Search" class="search" />
+    <ul></ul>
+  </div>
+  <div id="baseball">
+    <input type="text" placeholder="Search" class="search" />
+    <ul></ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.string/3.3.4/underscore.string.min.js"></script>
+
+  <script src="lib/jquery-search-widget.js"></script>
+
+  <script src="models/PersonModel.js"></script>
+  <script src="models/AtheleteModel.js"></script>
+  <script src="models/BasketballPlayerModel.js"></script>
+  <script src="models/BaseballPlayerModel.js"></script>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
